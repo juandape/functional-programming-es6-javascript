@@ -132,16 +132,17 @@ function list(obj) {
 
 console.log(list(cars));
 
-//4. Create a function bmwSum that returns the sum of all prices of the BMW cars.
+// 4. Create a function bmwSum that returns the sum of all prices of the BMW cars.
+
 
 function bmwSum(obj) {
-  let sum = 0;
-  obj.forEach((item) => {
-    if (item.brand === "BMW") {
-      sum += item.price;
-    }
-  });
-  return sum;
-}
-
-console.log(bmwSum(cars));
+    const price = []
+    obj.forEach((item) => {
+      if (item.brand === "BMW") {
+         price.push(item.price)
+        }
+    });
+    return price.reduce((total, value)=>total + value, 0)
+  }
+  
+  console.log(bmwSum(cars));

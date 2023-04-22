@@ -108,7 +108,7 @@ function ferraris(obj) {
   return enzo;
 }
 
-// console.log(ferraris(cars));
+console.log(ferraris(cars));
 
 //2. Create a function nineties that returns all the cars with models between 1980 and 1990.
 
@@ -117,7 +117,7 @@ function nineties(obj) {
   return age;
 }
 
-// console.log(nineties(cars));
+console.log(nineties(cars));
 
 //3. Create a function list that returns an array of strings with the same number of cars.
 //   Each element should contain the string “This from costs $” (e.g. for the first element it should say “This Mazda from 1989 costs $5241”).
@@ -130,7 +130,7 @@ function list(obj) {
   return newList;
 }
 
-// console.log(list(cars));
+console.log(list(cars));
 
 //4. Create a function bmwSum that returns the sum of all prices of the BMW cars.
 

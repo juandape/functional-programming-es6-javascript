@@ -1,5 +1,5 @@
 # Make It Real - functional-programming-es6-javascript
-## This is a solution to the *BEM Notation, Sass, mobile first* mission of the Make It Real course.
+## This is a solution to the *fuctional programming exercises* mission of the Make It Real course.
 
 ## The challenge
 functional programming exercises
